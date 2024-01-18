@@ -22,7 +22,7 @@ Welcome to **TalentED 😎**, your Personal Applicant Tracking System for both J
 - Use a virtual environment in order to avoid "library-pollution" in your system. It's just few commands:
   - Navigate to your project directory & based on your system(Windows/Mac) Use the command
   ```bash
-  python -m venv venv
+  python3 -m venv venv
   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
   ```
 - Keep all your secret in .env file-Shhhhhh! No One Should Know your API Keys
@@ -73,6 +73,6 @@ streamlit run app.py
 
 Make sure to keep your Google API key secure and do not share it publicly.
 
-**Disclaimer:** This application relies on Google Gemini's API which has a limit of 60 req per second. Ensure that you comply with the terms of service for each dependency.
+**Disclaimer:** This application relies on Google Gemini's API which has a limit of 60 req per minute. Ensure that you comply with the terms of service for each dependency.
 
 Feel free to customize and enhance this application according to your needs! Happy Coding! 🚀
